@@ -12,7 +12,7 @@ import (
 
 func main() {
 	// Replace "your-api-key" with your actual OpenAI API key
-	client := openai.NewClient("sk-1It8kYFOXrIJNglzFzEy_EhZ-_CkJW2-1nRyL72yN0T3BlbkFJyx0ffXhndcTiMfJKtFJ0Wp9oz7yH11DFxzQ7WQcZMA")
+	client := openai.NewClient("")
 	messages := make([]openai.ChatCompletionMessage, 0)
 	reader := bufio.NewReader(os.Stdin)
 
